@@ -100,11 +100,11 @@ print("T-value = %.3f, p-value = %.3f" % crab_ttest) # %.3f : 각각 소수점 3
 ```
 * T-test Process
 1) 귀무 가설 (Null Hypothesis) 를 설정 (fair coin, p = 0.5)  
-$H_0: \mu = \bar{x}$  
-$\mu$: 모집단의 평균  
-$\bar{x}$: 표본의 평균  
+* $H_0: \mu = \bar{x}$  
+* $\mu$: 모집단의 평균  
+* $\bar{x}$: 표본의 평균  
 2) 대안 가설 (Alternative Hypothesis) 를 설정 (not fair coin, p != 0.5)  
-$H_1: \mu \neq \bar{x}$
+* $H_1: \mu \neq \bar{x}$
 3) 신뢰도를 설정 (Confidence Level) : 모수가 신뢰구간 안에 포함될 확률 (보통 95, 99% 등을 사용)  
 신뢰도 95%의 의미  
 = 모수가 신뢰 구간 안에 포함될 확률이 95%  
