@@ -1,3 +1,8 @@
+---
+layout: post
+title:  EDA(Exporatory Data Analysis)
+---
+
 # Exporatory Data Analysis
 
 **목차**  
