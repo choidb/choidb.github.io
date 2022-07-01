@@ -42,9 +42,9 @@
     * boxplot  
       <img src="../images1/2022-06-13-14-55-17.png" width="400" height="200"/>
     * bagplot  
-      <img src="2022-06-13-14-55-53.png" width="400" height="200"/>
+      <img src="../2022-06-13-14-55-53.png" width="400" height="200"/>
     * violin plot  
-      <img src="2022-06-13-14-58-13.png" width="400" height="200"/>
+      <img src="../2022-06-13-14-58-13.png" width="400" height="200"/>
 
 * 기술통계는 추리통계를 위한 추진력을 얻기위함
 
@@ -109,7 +109,7 @@ $H_1: \mu \neq \bar{x}$
 신뢰도 95%의 의미  
 = 모수가 신뢰 구간 안에 포함될 확률이 95%  
 = 귀무가설이 틀렸지만 우연히 성립할 확률이 5%  
-<img src="2022-06-13-17-52-28.png" width="400" height="300"/>  
+<img src="../2022-06-13-17-52-28.png" width="400" height="300"/>  
 
 4) P-value를 확인
 
