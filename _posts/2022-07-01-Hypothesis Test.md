@@ -79,7 +79,7 @@
 ## 6. t-test
 * One Sample t-test
   * 1개의 sample 값들의 평균이 특정값과 동일한지 비교.
-```ipython
+```python
 import pandas as pd
 from scipy import stats
 crab = pd.DataFrame({'0': [25.8, 24.6, 26.1, 22.9, 25.1]})
@@ -94,9 +94,10 @@ crab
 crab_ttest = stats.ttest_1samp(crab, 23.0)
 print("T-value = %.3f, p-value = %.3f" % crab_ttest) # %.3f : 각각 소수점 3자리까지 출력
 >>> T-value = 3.364, p-value = 0.028
+# 검정통계량 t값은 1.062, p값은 0.348로 유의수준 0.05에서(기각역을 p < 0.05로 설정했을 때) 귀무가설을 기각한다.(버린다.)
+# 평균값 24.9에 가까울수록 p는 1에 가까워진다.
 ```
-#### 검정통계량 t값은 1.062, p값은 0.348로 유의수준 0.05에서(기각역을 p < 0.05로 설정했을 때) 귀무가설을 기각한다.(버린다.)
-#### 평균값 24.9에 가까울수록 p는 1에 가까워진다.
+
 
 * T-test Process
 1) 귀무 가설 (Null Hypothesis) 를 설정 (fair coin, p = 0.5)  
