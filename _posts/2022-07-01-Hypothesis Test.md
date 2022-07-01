@@ -40,7 +40,7 @@
 * 평균,중앙값,최빈값,표준편차,사분위 등으로 있는 사실에 대해 통계를 내린 것!
 * 기술 통계치의 시각화
     * boxplot  
-      <img src="2022-06-13-14-55-17.png" width="400" height="200"/>
+      <img src="../images1/2022-06-13-14-55-17.png" width="400" height="200"/>
     * bagplot  
       <img src="2022-06-13-14-55-53.png" width="400" height="200"/>
     * violin plot  
