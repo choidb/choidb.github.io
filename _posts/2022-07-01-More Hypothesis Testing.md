@@ -1,3 +1,8 @@
+---
+title: 'More Hypothesis Testing'
+use_math: true
+---
+
 # More Hypothesis Testing
 
 **목차**  
