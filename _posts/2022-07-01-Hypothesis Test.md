@@ -42,7 +42,7 @@
     * boxplot  
       <img src="/_posts/images1/2022-06-13-14-55-17.png" width="400" height="200"/>
     * bagplot  
-      <img src="[/_posts/images1/2022-06-13-14-55-53.png](https://github.com/choidb/choidb.github.io/blob/master/_posts/images1/2022-06-13-14-55-53.png?raw=true)" width="400" height="200"/>
+      <img src="https://github.com/choidb/choidb.github.io/blob/master/_posts/images1/2022-06-13-14-55-53.png?raw=true" width="400" height="200"/>
     * violin plot  
       <img src="/_posts/images1/2022-06-13-14-58-13.png" width="400" height="200"/>
 
