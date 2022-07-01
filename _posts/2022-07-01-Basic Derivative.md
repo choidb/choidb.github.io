@@ -1,3 +1,8 @@
+---
+title: '기초 미분 (Basic Derivative)'
+use_math: true
+---
+
 # 기초 미분 (Basic Derivative)  
 
 **목차**  
