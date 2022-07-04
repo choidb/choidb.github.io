@@ -34,14 +34,14 @@ use_math: true
   * 여러 그룹들이 하나의 분포에서부터 왔다는 가정으로 지표는 F-statistic 사용
   * $F = { {Variance-between-group} \over {Variance-with-in-group}}$
 * 공식  
-$m$ = 전체 그룹 수, $n$ = 데이터 수
+  * $m$ = 전체 그룹 수, $n$ = 데이터 수
 
-$$S_{w} = \sum_{i = 1}^{m} \sum_{j=1}^{n} (x_{ij} - x_{i.})^2$$
-$$x_{i.} = \sum_{j = 1}^{n} {x_{ij} / n}$$
-$$S_{b} = n \sum_{i=1}^m (x_{i.} - x_{..})^2 $$
-$$x_{..} = {\sum_{i=1}^m x_{i.} \over {m}}$$
-$$F = { { S_{b}}/{(m-1)} \over S_{w} / (nm-m)}$$
-$$p( {F_{m-1, nm-m}} > F_{m-1, nm-m, \alpha}) = \alpha $$
+  * $$S_{w} = \sum_{i = 1}^{m} \sum_{j=1}^{n} (x_{ij} - x_{i.})^2$$
+  * $$x_{i.} = \sum_{j = 1}^{n} {x_{ij} / n}$$
+  * $$S_{b} = n \sum_{i=1}^m (x_{i.} - x_{..})^2 $$
+  * $$x_{..} = {\sum_{i=1}^m x_{i.} \over {m}}$$
+  * $$F = { { S_{b}}/{(m-1)} \over S_{w} / (nm-m)}$$
+  * $$p( {F_{m-1, nm-m}} > F_{m-1, nm-m, \alpha}) = \alpha $$
 * F-stat by scipy
 ```ipython
 from scipy.stats import f_oneway
