@@ -1,6 +1,10 @@
 ---
 title: 'Confidence Intervals'
 use_math: true
+permalink: /categories/Statistics/
+layout: category
+author_profile: true
+taxonomy: Statistics
 ---
 
 
