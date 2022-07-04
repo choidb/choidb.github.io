@@ -36,12 +36,12 @@ use_math: true
 * 공식  
   * $m$ = 전체 그룹 수, $n$ = 데이터 수
 
-  * $$S_{w} = \sum_{i = 1}^{m} \sum_{j=1}^{n} (x_{ij} - x_{i.})^2$$
-  * $$x_{i.} = \sum_{j = 1}^{n} {x_{ij} / n}$$
-  * $$S_{b} = n \sum_{i=1}^m (x_{i.} - x_{..})^2 $$
-  * $$x_{..} = {\sum_{i=1}^m x_{i.} \over {m}}$$
-  * $$F = { { S_{b}}/{(m-1)} \over S_{w} / (nm-m)}$$
-  * $$p( {F_{m-1, nm-m}} > F_{m-1, nm-m, \alpha}) = \alpha $$
+  * $S_{w} = \sum_{i = 1}^{m} \sum_{j=1}^{n} (x_{ij} - x_{i.})^2$
+  * $x_{i.} = \sum_{j = 1}^{n} {x_{ij} / n}$
+  * $S_{b} = n \sum_{i=1}^m (x_{i.} - x_{..})^2 $
+  * $x_{..} = {\sum_{i=1}^m x_{i.} \over {m}}$
+  * $F = { { S_{b}}/{(m-1)} \over S_{w} / (nm-m)}$
+  * $p( {F_{m-1, nm-m}} > F_{m-1, nm-m, \alpha}) = \alpha $
 * F-stat by scipy
 ```ipython
 from scipy.stats import f_oneway
