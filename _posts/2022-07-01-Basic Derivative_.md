@@ -39,7 +39,7 @@
 ## 2. 편미분 (Partial Derivative)
 * 예시)  
   * $f(x,y) = x^2 + 2xy + y^2$
-  * ${\partial f(x,y) \over {\partial x} = {\partial {(x^2 + 2xy + y^2)} \over {\partial x} = 2x + 2y$
+  * ${\partial f(x,y) \over \partial x} = {\partial (x^2 + 2xy + y^2) \over \partial x} = 2x + 2y$
 
 ## 3. Chain Rule
 * 공식
