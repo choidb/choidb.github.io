@@ -2,7 +2,7 @@
 title: 'Confidence Intervals'
 use_math: true
 categories:
-  - Statistics
+  - statistics
 ---
 
 
