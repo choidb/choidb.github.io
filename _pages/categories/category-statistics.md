@@ -1,7 +1,7 @@
 ---
 title: "Statistics"
 layout: archive
-permalink: categories/Statistics
+permalink: categories/statistics
 author_profile: true
 sidebar_main: true
 ---
