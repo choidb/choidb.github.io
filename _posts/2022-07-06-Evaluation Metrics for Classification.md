@@ -1,4 +1,9 @@
-# Evaluation Metrics for Classification
+---
+title: 'Evaluation Metrics for Classification'
+use_math: true
+categories:
+  - ml
+---
 
 **목차**  
 [1. Confusion matrix](#1-confusion-matrix)  
@@ -18,6 +23,8 @@
 * 분류 모델의 성능 평가 지표를 보여줌
 * sklearn.metrics.plot_confusion_matrix를 사용
 ![](2022-06-24-11-21-13.png)
+<img src="https://github.com/choidb/choidb.github.io/blob/master/_posts/images2/2022-06-24-11-21-13.png?raw=true" width="1000" height="1000"/>
+
 
 ## 2. 정밀도(precision), 재현율(recall)
 * [Scikit-Learn User Guide — Classification Report](https://scikit-learn.org/stable/modules/model_evaluation.html#classification-report)
