@@ -1,4 +1,9 @@
-# 신경망 학습(Training Neural Network)
+---
+title: '신경망 학습(Training Neural Network)'
+use_math: true
+categories:
+  - dl
+---
 
 **목차**  
 [1. 신경망이 학습되는 메커니즘](#1-신경망이-학습되는-메커니즘)  
