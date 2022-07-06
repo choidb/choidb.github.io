@@ -1,4 +1,9 @@
-# Beyond Classification
+---
+title: 'Beyond Classification'
+use_math: true
+categories:
+  - dl
+---
 
 **목차**  
 [1. 분할(Segmentation)](#1-분할segmentation)  
@@ -45,8 +50,10 @@
 * IoU(Intersection over Union)
   * 객체 탐지를 평가하는 지표
   * Bounding Box 를 Ground-truth라고 한다.  
-<img src="2022-06-28-17-42-07.png" width="250" height="200"/>  
-<img src="2022-06-28-17-43-54.png" width="300" height="150"/>  
+
+<img src="https://github.com/choidb/choidb.github.io/blob/master/_posts/images3/2022-06-28-17-42-07.png?raw=true" width="250" height="200"/>
+<img src="https://github.com/choidb/choidb.github.io/blob/master/_posts/images3/2022-06-28-17-43-54.png?raw=true" width="300" height="150"/>
+
 &rArr; Ground-truth/Prediction에 해당하는 Bounding Box 에 따라 IoU가 구해지는 예시
 
 * 대표적인 객체 탐지 Model
