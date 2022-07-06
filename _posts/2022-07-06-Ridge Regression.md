@@ -31,6 +31,7 @@ categories:
 * 특성공학(feature engineering)
   * 과제에 적합한 특성을 만들어 내는 과정
   * 실무 현장에서 가장 많은 시간이 소요되는 작업 중 하나
+
 #### SelectKBest를 사용해 가장 효과적인 특성 K개를 고르기
 ```python
 # target(Price)와 가장 correlated 된 features 를 k개 고르는 것이 목표입니다.
@@ -50,7 +51,8 @@ X_test_selected = selector.transform(X_test)
 
 X_train_selected.shape, X_test_selected.shape
 ```
-* 특성의 수 k를 어떻게 결정하는가??
+
+특성의 수 k를 어떻게 결정하는가??
 
 ## 3. Ridge Regression 모델 학습
 * Ridge 회귀는 기존 다중회귀선을 훈련데이터에 덜 적합이 되도록 만든다
