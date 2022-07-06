@@ -1,4 +1,9 @@
-# AutoEncoder
+---
+title: 'AutoEncoder'
+use_math: true
+categories:
+  - dl
+---
 
 **목차**  
 [1. AutoEncoder](#1-autoencoder)  
@@ -20,7 +25,7 @@
 
 ## 1. AutoEncoder
 * 입력 데이터를 저차원의 벡터로 압축한 뒤 원래 크기의 데이터로 복원하는 신경망
-<img src="2022-06-28-17-50-08.png" width="400" height="200"/>  
+<img src="https://github.com/choidb/choidb.github.io/blob/master/_posts/images3/2022-06-28-17-50-08.png?raw=true" width="400" height="200"/>
 
 * Code 라고 표시된 가장 저차원의 벡터는 Latent(잠재) 벡터라고도 함
   * Latent(잠재) 벡터란 원본 데이터보다 차원이 작으면서도, 원본 데이터의 특징을 잘 보존하고 있는 벡터
