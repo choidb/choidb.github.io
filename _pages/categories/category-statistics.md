@@ -1,11 +1,11 @@
 ---
-title: "Statistics"
+title: "데이터와 친해지기"
 layout: archive
-permalink: categories/statistics
+permalink: categories/data
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.statistics %}
+{% assign posts = site.categories.data %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
