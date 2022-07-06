@@ -81,13 +81,13 @@ from scipy.stats import kruskal
 x1 = [1, 3, 4, 8, 9]
 y1 = [1, 4, 6, 7, 7]
 kruskal(x1, y1) # 약간은 다르지만, "유의한" 차이는 아님
->>> KruskalResult(statistic=0.01111111111111548, pvalue=0.91605107228188)
+KruskalResult(statistic=0.01111111111111548, pvalue=0.91605107228188)
 
 x2 = [12, 15, 18]
 y2 = [24, 25, 26]
 z = [40, 40]  # 3번째 그룹은 사이즈가 다름
 kruskal(x2, y2, z)
->>> KruskalResult(statistic=6.325301204819277, pvalue=0.042313436212501186)
+KruskalResult(statistic=6.325301204819277, pvalue=0.042313436212501186)
 ```
 
 ## 4. $\chi^2$ Tests
@@ -109,19 +109,19 @@ from scipy import stats
 x2 = 0.00139
 
 1 - stats.chi2.cdf(x2, df = ((2-1)*(2-1)) ) # pvalue : 0.97, 연관이 있다.
->>> 0.9702595963009745
+0.9702595963009745
 
 import numpy as np
 from scipy.stats import chisquare  
 
 s_obs = np.array([[18, 22, 20, 15, 23, 22]]) # Similar
 chisquare(s_obs, axis=None) # One sample chi-square
->>> Power_divergenceResult(statistic=2.3000000000000003, pvalue=0.8062668698851285)
+Power_divergenceResult(statistic=2.3000000000000003, pvalue=0.8062668698851285)
 
 ns_obs = np.array([[5, 23, 26, 19, 24, 23]])
 
 chisquare(ns_obs, axis=None)
->>> Power_divergenceResult(statistic=14.8, pvalue=0.011251979028327346)
+Power_divergenceResult(statistic=14.8, pvalue=0.011251979028327346)
 ```
 
 ## 5. Two sample $\chi^2$ test
@@ -157,7 +157,7 @@ data.index = ["Light", "Middle", "Heavy"]
 
 chi, pvalue, _, _ = stats.chi2_contingency(data, correction=False)
 chi, pvalue
->>> (244.23390701043138, 1.1365768507791132e-51)
+# (244.23390701043138, 1.1365768507791132e-51)
 # p-value가 0.05보다 작기 때문에 귀무가설을 기각하고 대립가설을 채택
 ```
 
