@@ -97,7 +97,7 @@ categories:
 * Conditioning
   * 데이터 프레임의 부분 선택
   * 데이터프레임 필터링 예시  
-   * '&' 와 '|' 활용  
+   * & 와 |의 활용  
    * type cast  
 
 ```python
