@@ -1,4 +1,9 @@
-# Data Wrangling
+---
+title: 'Data Wrangling'
+use_math: true
+categories:
+  - ml
+---
 
 **목차**  
 [1. 데이터 랭글링](#1-데이터-랭글링)  
