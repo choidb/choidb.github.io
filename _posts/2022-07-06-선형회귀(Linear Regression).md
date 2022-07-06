@@ -1,4 +1,10 @@
-# 선형회귀(Linear Regression)
+---
+title: '선형회귀(Linear Regression)'
+use_math: true
+categories:
+  - ml
+---
+
 
 **목차**  
 [1. 기준모델](#1-기준모델baseline-model-설정)  
@@ -21,7 +27,8 @@
 * 회귀문제: 타겟의 평균값
 * 시계열회귀문제: 이전 타임스탬프의 값
 
-```ipython
+#### 
+```python
 ## predict: 우리가 정한 기준모델인 평균으로 예측을 합니다
 predict = df['SalePrice'].mean()
 ## 평균값으로 예측할 때 샘플 별 평균값과의 차이(error)를 저장합니다
