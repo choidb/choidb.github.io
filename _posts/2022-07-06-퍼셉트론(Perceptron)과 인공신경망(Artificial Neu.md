@@ -1,4 +1,9 @@
-# 퍼셉트론(Perceptron)과 인공신경망(Artificial Neural Networks)
+---
+title: '퍼셉트론(Perceptron)과 인공신경망(Artificial Neural Networks)'
+use_math: true
+categories:
+  - dl
+---
 
 **목차**  
 [1. 퍼셉트론](#1-퍼셉트론)  
