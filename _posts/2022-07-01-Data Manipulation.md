@@ -27,7 +27,7 @@ categories:
 ## 1. pandas 로 데이터 합치기
 * Concat (Concatenate)
   
-```ipython
+```python
 >>> df1 = pd.DataFrame([['a', 1], ['b', 2]],
 ...                   columns=['letter', 'number'])
 >>> df1
@@ -64,7 +64,7 @@ categories:
 * Merge
   * concat과 다르게 공통된 부분을 기반으로 합치기
 
-```ipython
+```python
 >>> df1 = pd.DataFrame({'lkey': ['foo', 'bar', 'baz', 'foo'],
 ...                     'value': [1, 2, 3, 5]})
 >>> df2 = pd.DataFrame({'rkey': ['foo', 'bar', 'baz', 'foo'],
@@ -96,7 +96,7 @@ categories:
 
 * Conditioning
   * 데이터 프레임의 부분 선택
-```ipython
+```python
 # 데이터프레임 필터링 예시
 
 # type cast
@@ -112,10 +112,10 @@ df_subset2
 ```
 * isin
   * Dataframe의 컬럼에서 어떤 list의 값을 포함하고 있는것만 걸러낼 때 사용
-```ipython
->>> df = pd.DataFrame({'num_legs': [2, 4], 'num_wings': [2, 0]},
+```python
+df = pd.DataFrame({'num_legs': [2, 4], 'num_wings': [2, 0]},
                   index=['falcon', 'dog'])
->>> df
+df
         num_legs  num_wings
 falcon         2          2
 dog            4          0
@@ -129,7 +129,7 @@ dog        False       True
 ```
 * Groupby
   * 같은 값을 하나로 묶어 통계 또는 집계 결과를 얻기 위해 사용하는 것
-```ipython
+```python
 >>> df = pd.DataFrame({'Animal': ['Falcon', 'Falcon',
                               'Parrot', 'Parrot'],
                    'Max Speed': [380., 370., 24., 26.]})
