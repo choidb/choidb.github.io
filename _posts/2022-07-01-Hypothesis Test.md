@@ -84,6 +84,7 @@ categories:
 ## 6. t-test
 * One Sample t-test
   * 1개의 sample 값들의 평균이 특정값과 동일한지 비교.
+
 ```python
 import pandas as pd
 from scipy import stats
