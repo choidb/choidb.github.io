@@ -52,7 +52,7 @@ categories:
 * 원래 고차원 데이터의 정보(분산)를 최대한 유지하는 벡터를 찾고, 해당 벡터에 대해 데이터를 (Linear)Projection
 
 * PCA Process
-```ipython
+```python
   # 1) 데이터를 준비
 import numpy as np
 
