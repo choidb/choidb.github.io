@@ -1,4 +1,9 @@
-# 언어 모델과 RNN(Recurrent Neural Network, 순환 신경망)
+---
+title: '언어 모델과 RNN(Recurrent Neural Network, 순환 신경망)'
+use_math: true
+categories:
+  - dl
+---
 
 **목차**  
 [1. 언어 모델 (Language Model)](#1-언어-모델-language-model)  
