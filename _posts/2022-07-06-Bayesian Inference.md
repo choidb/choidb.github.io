@@ -35,11 +35,11 @@ categories:
 >
 * **베이지안 이론 (Bayes Theorem)**
   * 핵심공식 유도과정
-    1. $P(A|B) = {P(A \cap B) \over P(B)}$
-    2. $P(B|A) = {P(B \cap A) \over P(A)}$
-    3. $P(A \cap B) = P(B \cap A),$
-    4. $P(A|B) \cdot P(B) = P(B|A) \cdot P(A)$
-    5. $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$
+    1. $P(A \vert B) = {P(A \cap B) \over P(B)}$
+    2. $P(B \vert A) = {P(B \cap A) \over P(A)}$
+    3. $P(A \cap B) = P(B \cap A)$
+    4. $P(A \vert B) \cdot P(B) = P(B \vert A) \cdot P(A)$
+    5. $P(A \vert B) = \frac{P(B \vert A)P(A)}{P(B)}$
   * $B$가 주어진 상황에서 $A$의 확률은 $A$가 주어진 상황에서의 $B$의 확률 곱하기 $A$의 확률, 나누기 $B$ 의 확률로 표현
   * $p(A \vert B)$ -> 사후 확률. (B라는 정보가 업데이트 된 이후의 사(이벤트)후 확률)
   * $p(A)$ -> 사전 확률. B라는 정보가 업데이트 되기 전의 사전확률
