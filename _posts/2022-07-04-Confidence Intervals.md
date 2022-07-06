@@ -2,11 +2,8 @@
 title: 'Confidence Intervals'
 use_math: true
 categories:
-  - statistics
+  - data
 ---
-
-
-# Confidence Intervals
 
 **목차**  
 [1. ANOVA(ANalysis Of VAriance) 분산 분석](#1-anovaanalysis-of-variance-분산-분석)  
