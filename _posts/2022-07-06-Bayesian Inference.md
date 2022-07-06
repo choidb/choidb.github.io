@@ -31,12 +31,12 @@ categories:
 * **조건부 확률(The Law of Conditional Probability)**
   * 어떤 사건이 일어나는 경우에 다른 사건이 일어날 확률
   * 사건 $B$가 일어나는 경우에 사건 $A$가 일어날 확률을 '사건 $B$에 대한 $A$의 조건부확률'이라 하고, $P(A \vert B)P(A∣B)$로 표기하며 '$P A$ given $B$' 또는 '$P A$ bar $B$'로 읽는다. $P(A|B)P(A∣B)$는 사건 $B$의 영향을 받아 변할 수 있으며, 일반적으로 $P(A | B)$와 $P(B | A)$는 같지 않다.
-  * $P(A|B) = \frac{P(A \cap B)}{P(B)} $
+  * $P(A|B) = \frac{P(A \cap B)}{P(B)}$
 >
 * **베이지안 이론 (Bayes Theorem)**
   * 핵심공식 유도과정
-    1. $P(A|B) = {{P(A \cap B)} \over {P(B)}}$
-    2. $P(B|A) = {{P(B \cap A)} \over {P(A)}}$
+    1. $P(A|B) = {P(A \cap B) \over P(B)}$
+    2. $P(B|A) = {P(B \cap A) \over P(A)}$
     3. $P(A \cap B) = P(B \cap A),$
     4. $P(A|B) \cdot P(B) = P(B|A) \cdot P(A)$
     5. $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$
