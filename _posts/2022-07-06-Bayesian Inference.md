@@ -1,10 +1,14 @@
-# 베이지안
+---
+title: '베이지안'
+use_math: true
+categories:
+  - data
+---
+
 
 **목차**  
 [1. 베이지안](#1-베이지안)  
  
-
-
 ---
 * Contents
   1. 조건부 확률
