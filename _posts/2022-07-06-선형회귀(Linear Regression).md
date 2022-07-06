@@ -41,7 +41,7 @@ Mean Absolute Error(MAE, 평균절대오차) 는 예측 error 의 절대값 평�
 
 * $Error = (price - guess)$
 
-* $mae = (\frac{1}{n})\sum_{i=1}^{n}\left /vert price_{i} - guess_{i} \right /vert$
+* $mae = (\frac{1}{n})\sum_{i=1}^{n}\left \vert price_{i} - guess_{i} \right \vert$
 
 ## 2. 예측모델(Predictive Model)
 
