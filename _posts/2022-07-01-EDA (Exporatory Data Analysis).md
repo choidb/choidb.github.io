@@ -1,9 +1,10 @@
 ---
-layout: post
-title:  EDA(Exporatory Data Analysis)
+title: "EDA(Exporatory Data Analysis)"
+use_math: true
+categories:
+  - data
 ---
 
-# Exporatory Data Analysis
 
 **목차**  
 [1. 데이터셋 불러오기](#1-데이터셋-불러오기)  
