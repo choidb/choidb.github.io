@@ -66,7 +66,7 @@ OLS는 계수 계산을 위해 다음 공식을 사용한다.
 
 * $\alpha ={\frac {S_{xy}}{S_{xx}}}$
 
-* ${\displaystyle S_{xy}=\sum _{i=1}^{n}(x_{i}-{\bar {x}})(y_{i}-{\bar {y}})}$,   ${\displaystyle S_{xx}=\sum _{i=1}^{n}(x_{i}-{\bar {x}})^{2}}$
+* ${\displaystyle S_{xy}=\sum_{i=1}^{n}(x_{i}-{\bar {x}})(y_{i}-{\bar {y}})}$,   ${\displaystyle S_{xx}=\sum_{i=1}^{n}(x_{i}-{\bar {x}})^{2}}$
 
 최소제곱법으로 선형 회귀계수를 구한다.
 
