@@ -37,7 +37,7 @@ categories:
 
 * 분류 문제에서의 평가지표
   * 정확도(Accuracy): 분류문제에서 사용하는 평가지표
-  * Accuracy = $\frac{올바르게 예측한 수} {전체 예측 수}$ = $\frac{TP + TN} {P + N}$
+  * Accuracy = $\frac{올바르게 예측한 수}{전체 예측 수}$ = $\frac{TP + TN}{P + N}$
 
 ## 3. 로지스틱 회귀(Logistic Regression)
 * 로지스틱회귀를 사용하면 타겟변수의 범주로 0과 1을 사용할 수 있으며 각 범주의 예측 확률값을 얻을 수 있다.
