@@ -1,4 +1,9 @@
-# 자연어처리(NLP, Natural Language Processing)
+---
+title: '자연어처리(NLP, Natural Language Processing)'
+use_math: true
+categories:
+  - dl
+---
 
 **목차**  
 [1. 자연어처리(NLP, Natural Language Processing)](#1-자연어처리nlp-natural-language-processing)  
@@ -120,7 +125,7 @@
   * 말뭉치에 CountVectorizer를 적용
   * 적용한 결과를 문서-단어 행렬(Document-Term Matrix, DTM)으로 변환
   * CountVectorizer 로 제작한 문서-단어 행렬을 분석
-```ipython
+```python
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 ```
 
