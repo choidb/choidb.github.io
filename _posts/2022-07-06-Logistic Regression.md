@@ -41,9 +41,9 @@ categories:
 
 ## 3. 로지스틱 회귀(Logistic Regression)
 * 로지스틱회귀를 사용하면 타겟변수의 범주로 0과 1을 사용할 수 있으며 각 범주의 예측 확률값을 얻을 수 있다.
-$\large P(X)={\frac {1}{1+e^{-(\beta _{0}+\beta _{1}X_{1}+\cdots +\beta _{p}X_{p})}}}$
+$\large P(X)=\frac {1}{1+e^{-(\beta _{0}+\beta _{1}X_{1}+\cdots +\beta _{p}X_{p})}}$
 
-$0 \leq P(X) \leq 1$
+$$0 \leq P(X) \leq 1$$
 * 특성변수를 로지스틱 함수 형태로 표현
 <img src="https://github.com/choidb/choidb.github.io/blob/master/_posts/images2/2022-06-23-21-49-01.png?raw=true" width="400" height="200"/>
 * 분류문제에서는 확률값을 사용하여 분류를 하는데, 예를들어 확률값이 정해진 기준값 보다 크면 1 아니면 0 이라고 예측을 하게된다.
