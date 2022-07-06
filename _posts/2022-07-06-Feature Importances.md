@@ -66,8 +66,7 @@ categories:
 * AdaBoost의 알고리즘
   * [AdaBoost 알고리즘 개념](https://dohk.tistory.com/217) 참고
 
-
-<img src="https://github.com/choidb/choidb.github.io/blob/master/_posts/images2/2022-06-24-12-15-51.png?raw=true" width="400" height="200"/>
+<img src="https://github.com/choidb/choidb.github.io/blob/master/_posts/images2/2022-06-24-12-15-51.png?raw=true" width="400" height="100"/>
 
 * $H(x)$ = 최종 강한 분류기 (Strong Classifier)이며, 약한 학습기들( ht )의 가중( α )합으로 계산
 * $h$ = 약한 분류기 (Weak Classifier)
