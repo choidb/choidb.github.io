@@ -1,4 +1,9 @@
-# Hypothesis Test(가설 검정)
+---
+title: 'Hypothesis Test(가설 검정)'
+use_math: true
+categories:
+  - data
+---
 
 **목차**  
 [1. 기술 통계치](#1-기술-통계치descriptive-statistics)  
