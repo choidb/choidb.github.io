@@ -1,4 +1,9 @@
-# High dimensional data
+---
+title: 'High dimensional data'
+use_math: true
+categories:
+  - data
+---
 
 **목차**  
 [1. Vector transformation (벡터변환)](#1-vector-transformation벡터-변환)  
