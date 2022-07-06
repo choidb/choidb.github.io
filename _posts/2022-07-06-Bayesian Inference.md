@@ -25,12 +25,12 @@ categories:
 * 총 확률의 법칙(The Law of Total Probability)
   * A라는 특정 확률 변수에 대해 모든 가능한 이벤트의 총 확률은 1이다.
   * $P(A) = \sum_n P(A_n) = 1$
-  * $A$와 $B$의 2가지 변수가 연관이 있는 경우, B가 일어난 상황에서의 A에 대한 확률 $P(A)$는 $P(A|B)$로 표현함. (연관이 없는 경우, $B$가 일어난 상황에서, $A$에 대한 확률 $P(A)$는 $P(A) * P(B)$이다.)
-  * $P(A) = \sum_n P(A | B_n) P(B_n)$
+  * $A$와 $B$의 2가지 변수가 연관이 있는 경우, B가 일어난 상황에서의 A에 대한 확률 $P(A)$는 $P(A \vert B)$로 표현함. (연관이 없는 경우, $B$가 일어난 상황에서, $A$에 대한 확률 $P(A)$는 $P(A) * P(B)$이다.)
+  * $P(A) = \sum_n P(A \vert B_n) P(B_n)$
 >
 * **조건부 확률(The Law of Conditional Probability)**
   * 어떤 사건이 일어나는 경우에 다른 사건이 일어날 확률
-  * 사건 $B$가 일어나는 경우에 사건 $A$가 일어날 확률을 '사건 $B$에 대한 $A$의 조건부확률'이라 하고, $P(A \vert B)P(A∣B)$로 표기하며 '$P A$ given $B$' 또는 '$P A$ bar $B$'로 읽는다. $P(A|B)P(A∣B)$는 사건 $B$의 영향을 받아 변할 수 있으며, 일반적으로 $P(A | B)$와 $P(B | A)$는 같지 않다.
+  * 사건 $B$가 일어나는 경우에 사건 $A$가 일어날 확률을 '사건 $B$에 대한 $A$의 조건부확률'이라 하고, $P(A \vert B)P(A \vert B)$로 표기하며 '$P A$ given $B$' 또는 '$P A$ bar $B$'로 읽는다. $P(A \vert B)P(A \vert B)$는 사건 $B$의 영향을 받아 변할 수 있으며, 일반적으로 $P(A \vert B)$와 $P(B \vert A)$는 같지 않다.
   * $P(A|B) = \frac{P(A \cap B)}{P(B)}$
 >
 * **베이지안 이론 (Bayes Theorem)**
@@ -41,9 +41,9 @@ categories:
     4. $P(A|B) \cdot P(B) = P(B|A) \cdot P(A)$
     5. $P(A|B) = \frac{P(B|A)P(A)}{P(B)}$
   * $B$가 주어진 상황에서 $A$의 확률은 $A$가 주어진 상황에서의 $B$의 확률 곱하기 $A$의 확률, 나누기 $B$ 의 확률로 표현
-  * $p(A|B)$ -> 사후 확률. (B라는 정보가 업데이트 된 이후의 사(이벤트)후 확률)
+  * $p(A \vert B)$ -> 사후 확률. (B라는 정보가 업데이트 된 이후의 사(이벤트)후 확률)
   * $p(A)$ -> 사전 확률. B라는 정보가 업데이트 되기 전의 사전확률
-  * $p(B|A)$ -> data 
+  * $p(B \vert A)$ -> data 
 >
 * 위키피디아 예시
   * 가정 : 약물을 실제 사용 하는 경우 결과가 양성일 확률은 99%
@@ -63,8 +63,8 @@ categories:
 다음 계산 결과에서, $User$는 실제 약물이 발견 되는 사람, $+$는 양성반응입니다.
 
 
-$P(User|+) = {P(+|User)P(User) \over P(+)}$<br/>
-　　　　　　$= {P(+|User)P(User) \over P(+|User)P(User) + P(+|Non-user)P(Non-user)}$<br/>
+$P(User \vert +) = {P(+ \vert User)P(User) \over P(+)}$<br/>
+　　　　　　$= {P(+ \vert User)P(User) \over P(+ \vert User)P(User) + P(+ \vert Non-user)P(Non-user)}$<br/>
 　　　　　　$= {0.99 \times 0.005 \over 0.99 \times 0.005 + 0.01 \times 0.995}$<br/>
 　　　　　　$\approx 33.2%$ <br/>
 즉, 오직 33.2% 정도 만이 양성반응이 나왔다고 해도 실제로 약물을 포함 하는 경우입니다. 
