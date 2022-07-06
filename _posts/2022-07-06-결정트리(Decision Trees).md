@@ -59,7 +59,7 @@ categories:
 
 **▪︎ 엔트로피(Entropy):**
   * ${\displaystyle \mathrm {H} (T)=\operatorname {I} _{E} \left (p_{1},p_{2},...,p_{J} \right)=-\sum_{i=1}^{J}{p_{i}\log_{2}p_{i}}}$
-  * $\sum_{i=1}^n\frac{x_i}{n}$
+  * $\sum_{i=1}^{n}\frac{x_i}{n}$
   
 * 불순도(impurity) 라는 개념은 여러 범주가 섞여 있는 정도
   * 불순도가 낮은경우 지니불순도나 엔트로피는 낮은값 가짐
