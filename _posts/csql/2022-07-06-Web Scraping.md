@@ -55,7 +55,8 @@ categories:
 
 1_1_2. HTML Children
 * HTMl 요소 안에 다른 요소를 추가 가능
-```HTML
+
+```html
 <ul>
     <li>Hello</li>
     <li>World</li>
@@ -75,7 +76,8 @@ categories:
 
 1_2_2. CSS 상속
 * CSS 는 요소의 위치에 따라 상위 요소의 스타일을 상속받도록 되어 있다.
-```HTML
+
+```html
 <div style="color:red">
     <p>I have no style</p>
 </div>
@@ -89,7 +91,8 @@ categories:
 1_2_4. CSS ID
 * ID: 클래스와 비슷하게 사용가능
 * '#' 기호로 지정가능
-```js
+
+```javascript
 #pink {
     color:"pink";
 }
@@ -109,7 +112,8 @@ categories:
 
 2_2. DOM 메소드
 * 웹 브라우저에서 개발자 도구를 열어 콘솔 창으로 들어가 **자바스크립트**를 통해 사용할 수 있음.
-```js
+
+```javascript
 document.querySelectorAll('p')
 ```
 * DOM 기능
@@ -124,6 +128,7 @@ document.querySelectorAll('p')
 * 보통은 웹페이지를 텍스트 형식으로 사용하는 것이 아닌 DOM 을 활용
 
 2_4. DOM 예시
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -241,6 +246,7 @@ soup = BeautifulSoup(page.content, 'html.parser')
 
 >
 *  id, class, tag 등의 특징
+
 ```python
 # id 는 주로 한번만 사용이 되기 때문에 find 를 사용
 dog_element = soup.find(id='dog')
@@ -259,6 +265,7 @@ cat_elements = soup.find_all(class_='cat')
 cat_div_elements = soup.find_all('div', class_='cat')
 ```
 * string 활용
+
 ```python
 # raining 문자열이 포함되어 있는 요소 찾을 때
 soup.find_all(string='raining')
