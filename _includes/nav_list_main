@@ -18,28 +18,78 @@
                 <!--eda 카테고리 글들을 모아둔 페이지인 /categories/eda 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
-                    {% if category[0] == "eda" %}
-                        <li><a href="/categories/eda" class="">Data Preprocess & EDA ({{category[1].size}})</a></li>
+                    {% if category[0] == "data" %}
+                        <li><a href="/categories/data" class="">데이터와 친해지기 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "statistics" %}
-                        <li><a href="/categories/statistics" class="">Statistics ({{category[1].size}})</a></li>
+                    {% if category[0] == "ml" %}
+                        <li><a href="/categories/ml" class="">Machine Learning ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "la" %}
-                        <li><a href="/categories/la" class="">Linear Algebra ({{category[1].size}})</a></li>
+                    {% if category[0] == "dp" %}
+                        <li><a href="/categories/dp" class="">Deep Learning ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             
-            
-            
+        <span class="nav__sub-title">Data engineering</span>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <ul>
+                <!--eda 카테고리 글들을 모아둔 페이지인 /categories/eda 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                {% for category in site.categories %}
+                    {% if category[0] == "dr" %}
+                        <li><a href="/categories/dr" class="">개발환경과 관계형 데이터베이스 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "csql" %}
+                        <li><a href="/categories/csql" class="">데이터 수집과 NoSQL ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "apid" %}
+                        <li><a href="/categories/apid" class="">API 개발과 대시보드 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+        <span class="nav__sub-title">Computer Science</span>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+            <ul>
+                <!--eda 카테고리 글들을 모아둔 페이지인 /categories/eda 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                {% for category in site.categories %}
+                    {% if category[0] == "dr" %}
+                        <li><a href="/categories/pythonps" class="">Python and Problem Solving ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "dsac" %}
+                        <li><a href="/categories/dsac" class="">Data Structure and Algorithm Core ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "dsai" %}
+                        <li><a href="/categories/dsai" class="">Data Structure and Algorithm Intermediate ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
             
         <span class="nav__sub-title">Coding Test</span>
             <ul>
