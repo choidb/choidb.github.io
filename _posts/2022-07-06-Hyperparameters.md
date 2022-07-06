@@ -1,4 +1,9 @@
-# Hyperparameters
+---
+title: 'Hyperparameters'
+use_math: true
+categories:
+  - dl
+---
 
 **목차**  
 [1. 하이퍼파라미터(Hyperparameter) 튜닝으로 성능 올리기](#1-하이퍼파라미터hyperparameter-튜닝으로-성능-올리기)  
