@@ -54,7 +54,9 @@ categories:
 * 결정트리의 비용함수를 정의하고 그것을 최소화 하도록 분할하는 것
 
 **▪︎ 지니불순도(Gini Impurity or Gini Index):**
-  * $${I}_{G}(p) = \sum_{i=1}^{J} {p_{i} (1-p_{i})} = 1-\sum_{i=1}^{J} {p_{i}}^{2}}$$
+  * $${I}_{G}(p)$$
+  * $$= \sum_{i=1}^{J} {p_{i} (1-p_{i})} $$
+  * $$= 1-\sum_{i=1}^{J} {p_{i}}^{2}}$$
 
 **▪︎ 엔트로피(Entropy):**
   * ${\displaystyle \mathrm {H} (T)=\operatorname {I} _{E} \left (p_{1},p_{2},...,p_{J} \right)=-\sum_{i=1}^{J}{p_{i}\log_{2}p_{i}}}$
