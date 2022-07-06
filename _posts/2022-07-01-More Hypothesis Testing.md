@@ -72,23 +72,25 @@ categories:
     * Mann-Whitney U
     * Wilcoxon
     * Kruskal-Wallis(비모수적 평균 비교법) 등
-* Kruskal-Wallis Test (비모수적 평균 비교법)
+#### Kruskal-Wallis Test (비모수적 평균 비교법)  
+
 ```python
-# Kruskal-Wallis H-test - 2개 이상 그룹의 중위 랭크를 통한 차이 비교 ( extended X2 )
-# 샘플 수가 > 5 일때 좋음 
+> Kruskal-Wallis H-test - 2개 이상 그룹의 중위 랭크를 통한 차이 비교 ( extended X2 )
 from scipy.stats import kruskal
+# 샘플 수가 > 5 일때 좋음
 
 x1 = [1, 3, 4, 8, 9]
 y1 = [1, 4, 6, 7, 7]
 kruskal(x1, y1) # 약간은 다르지만, "유의한" 차이는 아님
-KruskalResult(statistic=0.01111111111111548, pvalue=0.91605107228188)
+>>> KruskalResult(statistic=0.01111111111111548, pvalue=0.91605107228188)
 
 x2 = [12, 15, 18]
 y2 = [24, 25, 26]
 z = [40, 40]  # 3번째 그룹은 사이즈가 다름
 kruskal(x2, y2, z)
-KruskalResult(statistic=6.325301204819277, pvalue=0.042313436212501186)
+>>> KruskalResult(statistic=6.325301204819277, pvalue=0.042313436212501186)
 ```
+
 
 ## 4. $\chi^2$ Tests
 * One sample $\chi^2$ test
@@ -102,6 +104,8 @@ $\chi^2 = \sum \frac{(observed_i-expected_i)^2}{(expected_i)}$
 
 ### **Statistics -> P-value로 바꾸기**
 * stats.chi2.pdf(x2, df) 사용
+
+
 
 ```python
 from scipy import stats
