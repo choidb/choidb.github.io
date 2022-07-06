@@ -1,4 +1,9 @@
-# 벡터와 매트릭스 ( Vectors and Matrices )
+---
+title: '벡터와 매트릭스 ( Vectors and Matrices )'
+use_math: true
+categories:
+  - data
+---
 
 **목차**  
 [1. Matrix Calculation](#1-matrix-calculation)  
