@@ -1,12 +1,13 @@
-# Transformer
+---
+title: 'Transformer'
+use_math: true
+categories:
+  - dl
+---
 
 **목차**  
 [1. Transformer](#1-transformer)  
 [2. GPT & BERT](#2-gpt-bert)  
-
-
-
-
 
 ---
 * Contents
