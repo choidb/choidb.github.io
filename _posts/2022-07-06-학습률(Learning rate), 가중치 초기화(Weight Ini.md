@@ -1,4 +1,9 @@
-# 학습률(Learning rate), 가중치 초기화(Weight Initialization) & Regularization
+---
+title: '학습률(Learning rate), 가중치 초기화(Weight Initialization) & Regularization'
+use_math: true
+categories:
+  - dl
+---
 
 **목차**  
 [1. 학습률 감소/계획법(Learning rate Decay/Scheduling)](#1-학습률-감소계획법learning-rate-decayscheduling)  
@@ -24,16 +29,19 @@
   * 학습률이 너무 높으면 경사 하강 과정에서 발산하면서 모델이 최적값을 찾을 수 없게 된다.
 * 학습률 감소(Learning rate Decay)
   * Adagrad, RMSprop, Adam 과 같은 주요 옵티마이저에 이미 구현되어 있기 때문에 쉽게 적용 가능
-  * .compile 내에 있는 optimizer= 에 Adam 등의 옵티마이저 적용 후
-내부 하이퍼파라미터를 변경하면 학습률 감소를 적용할 수 있습니다.
-```ipython
+  * .compile 내에 있는 optimizer= 에 Adam 등의 옵티마이저 적용 후 내부 하이퍼파라미터를 변경하면 학습률 감소를 적용할 수 있습니다.  
+
+#### ex)
+```python
 model.compile(optimizer=tf.keras.optimizers.Adam(lr=0.001, beta_1 = 0.89)
              , loss='sparse_categorical_crossentropy'
              , metrics=['accuracy'])
 ```
 * 학습률 계획법(Learning rate Scheduling)
   * .experimental 내부의 함수를 사용하여 설계
-```ipython
+
+#### ex)
+```python
 first_decay_steps = 1000
 initial_learning_rate = 0.01
 lr_decayed_fn = (
