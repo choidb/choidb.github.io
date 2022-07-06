@@ -1,4 +1,9 @@
-# Feature Engineering
+---
+title: 'Feature Engineering'
+use_math: true
+categories:
+  - data
+---
 
 **목차**  
 [1. Feature Engineering](#1-feature-engineering)  
