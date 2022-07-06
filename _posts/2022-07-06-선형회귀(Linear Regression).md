@@ -27,7 +27,7 @@ categories:
 * 회귀문제: 타겟의 평균값
 * 시계열회귀문제: 이전 타임스탬프의 값
 
-#### 
+#### 예시
 ```python
 ## predict: 우리가 정한 기준모델인 평균으로 예측을 합니다
 predict = df['SalePrice'].mean()
