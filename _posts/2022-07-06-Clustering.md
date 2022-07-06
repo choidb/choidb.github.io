@@ -1,5 +1,9 @@
-# Clustering
-
+---
+title: 'Clustering'
+use_math: true
+categories:
+  - data
+---
 **목차**  
 [1. Scree plots](#1-scree-plots)  
 [2. Machine Learning](#2-machine-learning)  
@@ -16,7 +20,7 @@
 ---
 
 ## 1. Scree Plots
-```ipython
+```python
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
@@ -101,7 +105,7 @@ scree_plot(pca)
       * The Eyeball Method :사람의 주관적인 판단을 통해서 임의로 지정하는 방법
       * Metrics : 객관적인 지표를 설정하여, 최적화된 k를 선택하는 방법
     * Scikit-learn 사용
-```ipython
+```python
 from sklearn.cluster import KMeans 
 kmeans = KMeans(n_clusters = 3)
 kmeans.fit(x)
