@@ -1,4 +1,9 @@
-# Data Manipulation
+---
+title: 'Data Manipulation'
+use_math: true
+categories:
+  - data
+---
 
 **목차**  
 [1. pandas 로 데이터 합치기](#1-pandas-로-데이터-합치기)  
