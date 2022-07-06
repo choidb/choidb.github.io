@@ -1,9 +1,9 @@
 ---
 title: 'More Hypothesis Testing'
 use_math: true
+categories:
+  - data
 ---
-
-# More Hypothesis Testing
 
 **목차**  
 [1. t-test-전제-조건](#1--t-test-전제-조건)  
