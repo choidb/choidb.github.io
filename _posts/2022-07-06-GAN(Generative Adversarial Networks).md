@@ -1,4 +1,9 @@
-# GAN(Generative Adversarial Networks)
+---
+title: 'GAN(Generative Adversarial Networks)'
+use_math: true
+categories:
+  - dl
+---
 
 **목차**  
 [1. GAN(Generative Adversarial Networks)](#1-gangenerative-adversarial-networks)  
