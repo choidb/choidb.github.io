@@ -73,7 +73,7 @@ categories:
     * Wilcoxon
     * Kruskal-Wallis(비모수적 평균 비교법) 등
 * Kruskal-Wallis Test (비모수적 평균 비교법)
-```ipython
+```python
 # Kruskal-Wallis H-test - 2개 이상 그룹의 중위 랭크를 통한 차이 비교 ( extended X2 )
 # 샘플 수가 > 5 일때 좋음 
 from scipy.stats import kruskal
@@ -103,7 +103,7 @@ $\chi^2 = \sum \frac{(observed_i-expected_i)^2}{(expected_i)}$
 ### **Statistics -> P-value로 바꾸기**
 * stats.chi2.pdf(x2, df) 사용
 
-```ipython
+```python
 from scipy import stats
 
 x2 = 0.00139
@@ -130,7 +130,7 @@ chisquare(ns_obs, axis=None)
 * continuous data라면, categorical data로 바꿔서 사용해야함.
 * crosstab으로 만들어 준다.
 
-```ipython
+```python
 # 필요한 패키지 import
 import pandas as pd
 import numpy as np
