@@ -79,6 +79,7 @@ categories:
       * 인셉션 구조를 활용하여 크기가 다른 필터와 풀링을 병렬적으로 적용한 뒤 결과를 조합
     * ResNet  
     <img src="https://github.com/choidb/choidb.github.io/blob/master/_posts/images3/2022-06-28-17-20-57.png?raw=true" width="400" height="280"/>  
+    
       * 화살표는 ResNet의 특징인 Residual Connection(=Skipped Connection)이다.
       * 층을 거친 데이터의 출력에 거치지 않은 출력을 더해준다.
       * 역전파 과정에서 미분을 적용하더라도 1 이상의 값으로 보존되기 때문에 층이 깊어짐에 따라 발생하는 기울기 소실(Vanishing Gradient) 문제를 어느정도 해결할 수 있다.
