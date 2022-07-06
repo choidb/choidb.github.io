@@ -41,7 +41,7 @@ categories:
 
 ## 3. 로지스틱 회귀(Logistic Regression)
 * 로지스틱회귀를 사용하면 타겟변수의 범주로 0과 1을 사용할 수 있으며 각 범주의 예측 확률값을 얻을 수 있다.
-$$\large P(X)=\frac {1}{1+e^{-(\beta _{0}+\beta _{1}X_{1}+\cdots +\beta _{p}X_{p})}}$$
+$$\large P(X)={\frac {1}{1+e^{-(\beta _{0}+\beta _{1}X_{1}+\cdots +\beta _{p}X_{p})}}}$$
 
 $$0 \leq P(X) \leq 1$$
 * 특성변수를 로지스틱 함수 형태로 표현
@@ -55,7 +55,7 @@ $$0 \leq P(X) \leq 1$$
     * p = 성공확률, 1-p = 실패확률
     * p = 1 일때 odds = $\infty$
     * p = 0 일때 odds = 0
-    * $\large ln(Odds) = ln(\frac{p}{1-p}) = ln(\frac{\frac {1}{1+e^{-(\beta _{0}+\beta _{1}X_{1}+\cdots +\beta _{p}X_{p})}}}{1 - \frac {1}{1+e^{-(\beta _{0}+\beta _{1}X_{1}+\cdots +\beta _{p}X_{p})}}}) = \normalsize \beta _{0}+\beta _{1}X_{1}+\cdots +\beta _{p}X_{p}$
+    * $$\large ln(Odds) = ln(\frac{p}{1-p}) = ln(\frac{\frac {1}{1+e^{-(\beta _{0}+\beta _{1}X_{1}+\cdots +\beta _{p}X_{p})}}}{1 - \frac {1}{1+e^{-(\beta _{0}+\beta _{1}X_{1}+\cdots +\beta _{p}X_{p})}}}) = \normalsize \beta _{0}+\beta _{1}X_{1}+\cdots +\beta _{p}X_{p}$$
     * 오즈에 로그를 취해 변환하는 것을 로짓변환(Logit transformation) 이라 함.
     * 비선형형태인 로지스틱함수형태를 선형형태로 만들어 회귀계수의 의미를 해석하기 쉽게 하는데, 특성 X의 증가에 따라 로짓(ln(odds))가 얼마나 증가(or감소)했다고 해석을 할 수 있다.
     * (odds 확률로 해석을 하려면 exp(계수) = k 를 계산해서 특성 1단위 증가당 odds 확률이 k배 증가한다고 해석)
