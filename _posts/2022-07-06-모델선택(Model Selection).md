@@ -1,4 +1,11 @@
-# 모델선택(Model Selection)
+---
+title: '모델선택(Model Selection)'
+use_math: true
+categories:
+  - ml
+---
+
+
 
 **목차**  
 [1. 교차검증](#1-교차검증cross-validation)  
