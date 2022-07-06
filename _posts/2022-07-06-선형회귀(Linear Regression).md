@@ -39,9 +39,9 @@ mean_absolute_error = errors.abs().mean()
 
 Mean Absolute Error(MAE, 평균절대오차) 는 예측 error 의 절대값 평균을 나타낸다.
 
-$$Error = (price - guess)$$
+* $Error = (price - guess)$
 
-$$mae = (\frac{1}{n})\sum_{i=1}^{n}\left | price_{i} - guess_{i} \right |$$
+* $mae = (\frac{1}{n})\sum_{i=1}^{n}\left /vert price_{i} - guess_{i} \right /vert$
 
 ## 2. 예측모델(Predictive Model)
 
@@ -54,7 +54,7 @@ $$mae = (\frac{1}{n})\sum_{i=1}^{n}\left | price_{i} - guess_{i} \right |$$
 * RSS는 SSE(Sum of Square Error)라고도 말하며 이 값이 회귀모델의 비용함수(Cost function)가 됩니다. 
 * 머신러닝에서는 이렇게 비용함수를 최소화 하는 모델을 찾는 과정을 학습이라고 합니다.
 
-${\displaystyle \operatorname {RSS} =\sum _{i=1}^{n}(\varepsilon _{i})^{2}=\sum _{i=1}^{n}(y_{i}-f(x_{i}))^{2}=\sum _{i=1}^{n}(y_{i}-(\alpha x_{i} + \beta))^{2}}$
+* ${\displaystyle \operatorname {RSS} =\sum _{i=1}^{n}(\varepsilon _{i})^{2}=\sum _{i=1}^{n}(y_{i}-f(x_{i}))^{2}=\sum _{i=1}^{n}(y_{i}-(\alpha x_{i} + \beta))^{2}}$
 
 여기서 계수 $\alpha$ 와 $\beta$ 는 RSS를 최소화 하는 값으로 모델 학습을 통해서 얻어지는 값이다.
 
@@ -62,11 +62,11 @@ ${\displaystyle \operatorname {RSS} =\sum _{i=1}^{n}(\varepsilon _{i})^{2}=\sum 
 
 OLS는 계수 계산을 위해 다음 공식을 사용한다.
 
-$\beta =\displaystyle {\bar {y}}-\alpha{\bar {x}}$,
+* $\beta =\displaystyle {\bar {y}}-\alpha{\bar {x}}$,
 
-$\alpha ={\frac {S_{xy}}{S_{xx}}}$
+* $\alpha ={\frac {S_{xy}}{S_{xx}}}$
 
-${\displaystyle S_{xy}=\sum _{i=1}^{n}(x_{i}-{\bar {x}})(y_{i}-{\bar {y}})}$,   ${\displaystyle S_{xx}=\sum _{i=1}^{n}(x_{i}-{\bar {x}})^{2}}$
+* ${\displaystyle S_{xy}=\sum _{i=1}^{n}(x_{i}-{\bar {x}})(y_{i}-{\bar {y}})}$,   ${\displaystyle S_{xx}=\sum _{i=1}^{n}(x_{i}-{\bar {x}})^{2}}$
 
 최소제곱법으로 선형 회귀계수를 구한다.
 
