@@ -99,7 +99,7 @@ categories:
   * 데이터프레임 필터링 예시  
     * & 와 | 활용  
     * type cast  
-```
+```python
 # 예시
 df['순이익률'] = pd.to_numeric(df['순이익률'])
 
@@ -107,7 +107,7 @@ condition = ( (df['순이익률'] > 0) & (df['순이익률'] < 10))
 df_subset2 = df[condition]
 ```
 
-* isin
+* isin의 사용
   * Dataframe의 컬럼에서 어떤 list의 값을 포함하고 있는것만 걸러낼 때 사용  
 
 ```python
