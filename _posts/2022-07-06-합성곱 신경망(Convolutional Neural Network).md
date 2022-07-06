@@ -1,4 +1,9 @@
-# 합성곱 신경망(Convolutional Neural Network)과 전이 학습(Transfer Learning)
+---
+title: '합성곱 신경망(Convolutional Neural Network)과 전이 학습(Transfer Learning)'
+use_math: true
+categories:
+  - dl
+---
 
 **목차**  
 [1. CNN(Convolutional Neural Network, 합성곱 신경망)과 CNN의 구조](#1-cnnconvolutional-neural-network-합성곱-신경망과-cnn의-구조)  
@@ -73,7 +78,7 @@
         * 가로 방향으로 층을 넓게 구성한 것을 인셉션(Inception) 구조라고 한다.
       * 인셉션 구조를 활용하여 크기가 다른 필터와 풀링을 병렬적으로 적용한 뒤 결과를 조합
     * ResNet  
-    ![](2022-06-28-17-20-57.png)  
+    <img src="https://github.com/choidb/choidb.github.io/blob/master/_posts/images3/2022-06-28-17-20-57.png?raw=true" width="400" height="280"/>  
       * 화살표는 ResNet의 특징인 Residual Connection(=Skipped Connection)이다.
       * 층을 거친 데이터의 출력에 거치지 않은 출력을 더해준다.
       * 역전파 과정에서 미분을 적용하더라도 1 이상의 값으로 보존되기 때문에 층이 깊어짐에 따라 발생하는 기울기 소실(Vanishing Gradient) 문제를 어느정도 해결할 수 있다.
