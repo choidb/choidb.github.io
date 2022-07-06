@@ -59,7 +59,7 @@ categories:
 
 **▪︎ 엔트로피(Entropy):**
   * ${\displaystyle \mathrm {H} (T)=\operatorname {I} _{E} \left (p_{1},p_{2},...,p_{J} \right)=-\sum_{i=1}^{J}{p_{i}\log_{2}p_{i}}}$
-
+  * $\sum\limit_{i=1}^n \frac{x_i}{n}$
 * 불순도(impurity) 라는 개념은 여러 범주가 섞여 있는 정도
   * 불순도가 낮은경우 지니불순도나 엔트로피는 낮은값 가짐
   * 노드를 분할하는 시점에서 가장 비용함수를 줄이는 분할특성과 분할지점을 찾아 내는 프로세스가 필요
