@@ -55,17 +55,17 @@ categories:
 
 **▪︎ 지니불순도(Gini Impurity or Gini Index):**
 
-${\displaystyle {I}_{G}(p)=\sum _{i=1}^{J}p_{i}(1-p_{i})=1-\sum _{i=1}^{J}{p_{i}}^{2}}$
+${\displaystyle {I}_{G}(p)=\sum_{i=1}^{J}p_{i}(1-p_{i})=1-\sum_{i=1}^{J}{p_{i}}^{2}}$
 
 **▪︎ 엔트로피(Entropy):**
 
-${\displaystyle \mathrm {H} (T)=\operatorname {I} _{E}\left(p_{1},p_{2},...,p_{J}\right)=-\sum _{i=1}^{J}{p_{i}\log _{2}p_{i}}}$
+${\displaystyle \mathrm {H} (T)=\operatorname {I} _{E}\left(p_{1},p_{2},...,p_{J}\right)=-\sum_{i=1}^{J}{p_{i}\log_{2}p_{i}}}$
 * 불순도(impurity) 라는 개념은 여러 범주가 섞여 있는 정도
   * 불순도가 낮은경우 지니불순도나 엔트로피는 낮은값 가짐
   * 노드를 분할하는 시점에서 가장 비용함수를 줄이는 분할특성과 분할지점을 찾아 내는 프로세스가 필요
   * 분할에 사용할 특성이나 분할지점(값)은 타겟변수를 가장 잘 구별해 주는(불순도의 감소가 최대가 되는, 정보획득이 가장 큰)것을 선택
   * 정보획득(Information Gain)은 특정한 특성을 사용해 분할했을 때 엔트로피의 감소량을 뜻함
-  * ${\displaystyle IG(T,a)=\mathrm {H} {(T)}-\mathrm {H} {(T|a)}}$ = 분할전 노드 불순도 - 분할 후 자식노드 들의 불순도
+  * ${\displaystyle IG(T,a)=\mathrm {H} {(T)}-\mathrm {H} {(T \vert a)}}$ = 분할전 노드 불순도 - 분할 후 자식노드 들의 불순도
 
 * [sklearn.tree.DecisionTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
 
