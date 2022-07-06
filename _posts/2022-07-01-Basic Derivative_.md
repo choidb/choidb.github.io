@@ -1,6 +1,8 @@
 ---
 title: 'Basic Derivative'
 use_math: true
+categories:
+  - data
 ---
 
 # 기초 미분 (Basic Derivative)  
