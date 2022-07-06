@@ -1,4 +1,9 @@
-# Interpreting ML Model
+---
+title: 'Interpreting ML Model'
+use_math: true
+categories:
+  - ml
+---
 
 **목차**  
 [1. Partial Dependence Plots(PDP)](#1-partial-dependence-plotspdp)  
@@ -17,7 +22,8 @@
 * 특성의 값에 따라서 타겟값이 증가/감소하느냐와 같은 어떻게 영향을 미치는지에 대한 정보
   * &rArr; 부분의존도그림(Partial dependence plots, PDP)을 사용
     * 관심있는 특성들이 타겟에 어떻게 영향을 주는지 쉽게 파악
-![](2022-06-24-13-06-25.png)
+
+<img src="https://github.com/choidb/choidb.github.io/blob/master/_posts/images2/2022-06-24-13-06-25.png?raw=true" width="800" height="600"/>
 
 * PDP에서 카테고리특성을 사용
   * 카테고리 특성을 학습할 때 Ordinal Encoder, Target Encoder 같은 인코더를 사용하게 되는데, 인코딩을 하게되면 학습 후 PDP 를 그릴 때 인코딩된 값이 나오게 되어 카테고리특성의 실제 값을 확인하기 어려운 문제가 있음.
