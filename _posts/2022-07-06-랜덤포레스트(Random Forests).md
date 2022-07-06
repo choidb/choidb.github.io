@@ -1,4 +1,9 @@
-# 랜덤포레스트(Random Forests)
+---
+title: '랜덤포레스트(Random Forests)'
+use_math: true
+categories:
+  - ml
+---
 
 **목차**  
 [1. 랜덤포레스트](#1-랜덤포레스트)  
