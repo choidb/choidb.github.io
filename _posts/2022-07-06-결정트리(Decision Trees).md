@@ -1,4 +1,9 @@
-# 결정트리(Decision Trees)
+---
+title: '결정트리(Decision Trees)'
+use_math: true
+categories:
+  - ml
+---
 
 **목차**  
 [1. 사이킷런 파이프라인](#1-사이킷런-파이프라인)  
