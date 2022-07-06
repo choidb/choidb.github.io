@@ -47,9 +47,9 @@ categories:
     * 벡터의 크기를 표현 할때는 || 를 사용
 > v = [1,2,3,4]
 >
-> ||v|| = $\sqrt{ 1^2 + 2^2 + 3^2 + 4^2 }$
+> $\Vert v \Vert$ = $\sqrt{ 1^2 + 2^2 + 3^2 + 4^2 }$
 >
-> ||v|| = $\sqrt{30}$
+> $\Vert v \Vert$ = $\sqrt{30}$
 
 * 벡터의 내적 ( Dot Product )
   - 내적은 교환법칙이 적용 됩니다: $a \cdot b = b \cdot a$
