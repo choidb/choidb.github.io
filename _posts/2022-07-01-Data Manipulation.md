@@ -97,9 +97,10 @@ categories:
 * Conditioning
   * 데이터 프레임의 부분 선택
   * 데이터프레임 필터링 예시  
-    * & 와 | 활용
-    * type cast
-```python
+    * & 와 | 활용  
+    * type cast  
+```
+# 예시
 df['순이익률'] = pd.to_numeric(df['순이익률'])
 
 condition = ( (df['순이익률'] > 0) & (df['순이익률'] < 10))
