@@ -107,11 +107,11 @@ condition = ( (df['순이익률'] > 0) & (df['순이익률'] < 10))
 df_subset2 = df[condition]
 
 df_subset2
-
-
 ```
+
 * isin
   * Dataframe의 컬럼에서 어떤 list의 값을 포함하고 있는것만 걸러낼 때 사용
+
 ```python
 df = pd.DataFrame({'num_legs': [2, 4], 'num_wings': [2, 0]},
                   index=['falcon', 'dog'])
@@ -127,8 +127,10 @@ dog        False       True
 
 출처: https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.isin.html
 ```
+
 * Groupby
   * 같은 값을 하나로 묶어 통계 또는 집계 결과를 얻기 위해 사용하는 것
+
 ```python
 >>> df = pd.DataFrame({'Animal': ['Falcon', 'Falcon',
                               'Parrot', 'Parrot'],
