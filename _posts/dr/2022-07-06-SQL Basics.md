@@ -99,22 +99,24 @@ SQL(Structured Query Language)은 데이터베이스 언어의 기준으로 주�
 
 
 ## 3. 스키마  
+
 |Teachers|      
 |---|     
-|Name|
-|Department|
-|Classes|  
+|Name|  
+|Department|  
+|Classes|   
 
-|Classes|
-|---|
-|Name|
-|Room Number|
-|Teacher|
-|Students|
+|Classes|  
+|---|  
+|Name|  
+|Room Number|  
+|Teacher|  
+|Students|  
 
 두 개의 표에서 Teachers와 Classes는 **Entity**(**엔티티**)에 해당  
 엔티티 Teachers에서 Name, Department, Classes는 **Fields**(행렬에서 열(Column)에 해당)라고 한다.  
 **레코드**(**Record**)는 테이블에 저장된 항목이다. 행렬에서 행(Row)라고 볼 수 있다. 예를 들어 Teachers 엔티티의 Fields 안에  
+
 |Nmae|Department|Classes|
 |---|---|---|
 | Cynthia | Music| Music Theory, Brass Methods |
@@ -160,16 +162,18 @@ SQL(Structured Query Language)은 데이터베이스 언어의 기준으로 주�
 > 
 * SQL 명령어 예시
   * SELECT
-    * 데이터셋에 포함될 특성들을 특정
-```SQL
+    * 데이터셋에 포함될 특성들을 특정  
+
+```sql
 SELECT 'hello world';   -- 일반 문자열
 SELECT 2;               -- 숫자
 SELECT 15 + 3;          -- 연산
 ```
   * FROM
     * 테이블과 관련이 있는 경우 필수로 명시해야 하는 명령어  \
-    결과들을 도출해낼 데이터베이스 테이블을 명시
-```SQL
+    결과들을 도출해낼 데이터베이스 테이블을 명시  
+
+```sql
 -- 특정 특성을 테이블에서 사용
 SELECT 특성_1
 FROM 테이블_이름;
@@ -195,8 +199,9 @@ FROM customers;
 ```
 
   * WHERE
-    * (선택적으로) 필터 역할을 하는 쿼리문
-```SQL
+    * (선택적으로) 필터 역할을 하는 쿼리문  
+
+```sql
 -- 특정 값과 동일한 데이터 찾기
 SELECT 특성_1, 특성_2
 FROM 테이블_이름
@@ -254,8 +259,9 @@ WHERE 특성_1 IS NOT NULL;
 ```
 
   * ORDER BY
-    * 돌려받는 데이터 결과를 어떻게 정렬하지에 대한 선택적 항목
-```SQL
+    * 돌려받는 데이터 결과를 어떻게 정렬하지에 대한 선택적 항목  
+
+```sql
 -- 기본 정렬은 오름차순
 SELECT *
 FROM 테이블_이름
@@ -276,8 +282,9 @@ ORDER BY employees.EmployeeId DESC;
 ```
   * LIMIT
     * 돌려받는 데이터 결과 갯수를 정하기
-    * 쿼리문에서 사용을 할 때에는 마지막에 추가
-```SQL
+    * 쿼리문에서 사용을 할 때에는 마지막에 추가  
+
+```sql
 -- 데이터 결과 갯수를 200개 한정
 SELECT *
 FROM 테이블_이름
@@ -289,8 +296,9 @@ FROM customers
 LIMIT 200;
 ```
   * DISTINCT
-    * 유니크한 값들을 받고 싶을 때에는 SELECT 뒤에 붙여 사용
-```SQL
+    * 유니크한 값들을 받고 싶을 때에는 SELECT 뒤에 붙여 사용  
+
+```sql
 -- 특성_1 기준으로 유니크한 값들만 선택
 SELECT DISTINCT 특성_1
 FROM 테이블_이름;
@@ -307,8 +315,9 @@ SELECT
 FROM 테이블_이름;
 ```
  * INNER JOIN
-   * 서로 공통된 부분으로만 연결
-```SQL
+   * 서로 공통된 부분으로만 연결  
+
+```sql
 -- INNER JOIN 이나 JOIN 으로 실행
 SELECT *
 FROM 테이블_1
@@ -323,8 +332,9 @@ JOIN employees AS e ON c.SupportRepId = e.EmployeeId;
 ```
   * OUTER JOIN
     * Outer JOIN 은 다양한 선택지가 있음
-      * 기본: 'left inclusive', 'right inclusive', 'full outer join'
-```SQL
+      * 기본: 'left inclusive', 'right inclusive', 'full outer join'  
+
+```sql
 -- LEFT INCLUSIVE: LEFT OUTER JOIN 으로 진행
 SELECT *
 FROM 테이블_1
@@ -337,7 +347,8 @@ RIGHT OUTER JOIN 테이블_2 ON 테이블_1.특성_A = 테이블_2.특성_B
 
 -- sqlite 에서는 RIGHT OUTER JOIN / FULL OUTER JOIN 을 지원하지 않기 때문에 순서를 바꾸어 LEFT JOIN 을 이용하는 방법을 사용
 ```
-```SQL
+
+```sql
 -- 명령어 여러개 조합 예시
 SELECT c.CustomerId, c.FirstName, count(c.City) as 'City Count'
 FROM customers AS c
