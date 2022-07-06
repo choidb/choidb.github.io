@@ -59,7 +59,7 @@ model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=lr_decayed_fn)
 
 2. Xavier 초기화를 해주었을 때의 활성화 값의 분포
    * Xavier 초기화(Xavier initialization)는 가중치를 표준편차가 고정값인 정규분포로 초기화 했을 때의 문제점을 해결하기 위해 등장한 방법
-   * Xavier 초기화는 이전 층의 노드가 $n$ 개일 때, 현재 층의 가중치를 표준편차가 $\frac{1} \sqrt {n}$ 인 정규분포로 초기화한다.
+   * Xavier 초기화는 이전 층의 노드가 $n$ 개일 때, 현재 층의 가중치를 표준편차가 $\frac{1} \sqrt{n}$ 인 정규분포로 초기화한다.
    * *(케라스에서 Xavier 초기화는 이전 층의 노드가 $n$ 개이고 현재 층의 노드가 $m$ 개일 때, 현재 층의 가중치를 표준편차가 $\frac{2} {\sqrt{n+m}}$ 인 정규분포로 초기화합니다.)*
    * Xavier 초기화는 활성화 함수가 시그모이드(Sigmoid)인 신경망에서는 잘 동작합니다.
    * 하지만 활성화 함수가 ReLU 일 경우에는 층이 지날수록 활성값이 고르지 못하게 되는 문제가 있음.
