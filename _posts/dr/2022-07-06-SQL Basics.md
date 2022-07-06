@@ -1,4 +1,10 @@
-# SQL Basics  
+---
+title: 'SQL Basics'
+use_math: true
+categories:
+  - dr
+---
+
 **목차**  
 
 [1. SQL 소개](#1-sql-소개)  
@@ -118,9 +124,6 @@ SQL(Structured Query Language)은 데이터베이스 언어의 기준으로 주�
 ## 4. SQL Basics
 * SQLite 샘플 데이터  
 [sqlite tutorial](https://www.sqlitetutorial.net/sqlite-sample-database/)
-
-* 데이터베이스 스키마
-![](2022-05-09-11-13-47.png)
 
 * 기본 쿼리문  
   * Select
