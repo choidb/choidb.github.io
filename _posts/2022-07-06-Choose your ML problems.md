@@ -1,4 +1,9 @@
-# Choose your ML problems
+---
+title: 'Choose your ML problems'
+use_math: true
+categories:
+  - ml
+---
 
 **목차**  
 [1. 데이터 과학자 실무 프로세스](#1-데이터-과학자-실무-프로세스)  
