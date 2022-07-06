@@ -97,19 +97,18 @@ categories:
 * Conditioning
   * 데이터 프레임의 부분 선택
   * 데이터프레임 필터링 예시  
+    * & 와 | 활용
+    * type cast
 ```python
 df['순이익률'] = pd.to_numeric(df['순이익률'])
-# type cast
 
 condition = ( (df['순이익률'] > 0) & (df['순이익률'] < 10))
 df_subset2 = df[condition]
-# & 와 | 활용
-
-df_subset2
 ```
 
 * isin
   * Dataframe의 컬럼에서 어떤 list의 값을 포함하고 있는것만 걸러낼 때 사용  
+
 ```python
 df = pd.DataFrame({'num_legs': [2, 4], 'num_wings': [2, 0]},
                   index=['falcon', 'dog'])
