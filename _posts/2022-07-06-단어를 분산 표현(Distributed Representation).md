@@ -1,4 +1,9 @@
-# 단어를 분산 표현(Distributed Representation)으로 나타내기
+---
+title: '단어를 분산 표현(Distributed Representation)으로 나타내기'
+use_math: true
+categories:
+  - dl
+---
 
 **목차**  
 [1. 분산 표현(Distributed Representation)](#1-분산-표현distributed-representation)  
