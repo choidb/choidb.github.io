@@ -82,8 +82,8 @@ model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=lr_decayed_fn)
      * 조건을 어떻게 적용할지에 따라 L1 Regularization(LASSO), L2 Regularization(Ridge) 으로 나뉨
      * 각 방법에 따른 손실 함수 식
 
-$L_1(\theta_w) &= \frac{1}{2} \sum_i (output_i - target_i)^2 + \color{blue}{\lambda} \cdot \color{red}{\Vert \theta_w \Vert_1}$
-$L_2(\theta_w) &= \frac{1}{2} \sum_i (output_i - target_i)^2 + \color{blue}{\lambda} \cdot \color{red}{\Vert \theta_w \Vert_2}$
+$L_1(\theta_w) &=$ $\frac{1}{2} \sum_i (output_i - target_i)^2 + \color{blue}{\lambda} \cdot \color{red}{\Vert \theta_w \Vert_1}$
+$L_2(\theta_w) &=$ $\frac{1}{2} \sum_i (output_i - target_i)^2 + \color{blue}{\lambda} \cdot \color{red}{\Vert \theta_w \Vert_2}$
 
 
 * Keras 에서는 아래와 같이 가중치 감소를 적용하고 싶은 층에 `regularizer` 파라미터를 추가
