@@ -31,7 +31,7 @@ categories:
 * 특성공학(feature engineering)
   * 과제에 적합한 특성을 만들어 내는 과정
   * 실무 현장에서 가장 많은 시간이 소요되는 작업 중 하나
-* SelectKBest를 사용해 가장 효과적인 특성 K개를 고르기
+#### SelectKBest를 사용해 가장 효과적인 특성 K개를 고르기
 ```python
 # target(Price)와 가장 correlated 된 features 를 k개 고르는 것이 목표입니다.
 
