@@ -37,6 +37,7 @@ for i in range(0, len_numbers):   # 반복인덱스 : 0,1,2,3
         > i: 3  j: 1
         > i: 3  j: 2
         > i: 3  j: 3
+
 ```python
 # 입력된 리스트에서 요소들의 합을 큰 순서대로 구해보자(조건 : 모든 요소들의 합이 아니다.)
 # 리스트의 메소드와 반복문을 활용해야 한다.
@@ -145,6 +146,7 @@ print("sum_list:",sum_list([2,3,4,5]))
     > items: [3, 4, 5]
     > items: [4, 5]
     > sum_list: 14
+
 ```python
 def add_two(num): # 매개변수
   return num + 2  # 반환값
