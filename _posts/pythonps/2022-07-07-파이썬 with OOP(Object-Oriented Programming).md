@@ -206,6 +206,7 @@ print("Car Attribute: ", speed,color,model)
 ```
     > Car Attribute:  (50, 'black', 'CarModel')
     > Car Attribute:  50 black CarModel
+
 ```python
 # OOP / 기능에 따라 Car클래스 안에 있는 함수와 변수만 추가해주면 된다.
 # 아래와 같이 클래스 선언 순서에 관계없이 실행된다.
