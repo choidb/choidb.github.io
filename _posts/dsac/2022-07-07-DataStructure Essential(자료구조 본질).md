@@ -219,6 +219,7 @@ print(ispalindrome(test_string))
 ```
     > 10
     > False
+
 ```python
 # 예시2 - 문자열 뒤집기(반복문과 조건문, 대입개념 활용)
 
@@ -237,6 +238,7 @@ print(strtest) # 위의 print 결과와 비교해보자.
 ```
     > ['d', 'c', 'b', 'a']
     > ['d', 'c', 'b', 'a']
+
 ```python
 # 예시3 - 문자열 뒤집기(리스트에서 제공하는 메소드 사용)
 strtest2 =['a','b','c','d']
@@ -248,6 +250,7 @@ strtest2.reverse()
 print(strtest2) 
 ```
     > ['d', 'c', 'b', 'a']
+
 ```python
 # 예시4 - 문자열 뒤집기(리스트에서 제공하는 메소드가 아닌, 파이썬의 내장함수 활용)
 strtest3 =['a','b','c','d']
