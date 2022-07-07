@@ -1,4 +1,9 @@
-# 파이썬 with OOP(Object-Oriented Programming)
+---
+title: '파이썬 with OOP(Object-Oriented Programming)'
+use_math: true
+categories:
+  - pythonps
+---
 
 * OOP(객체 지향 프로그램) 기본개념
 * 프로그래밍 패러다임의 특징
@@ -72,6 +77,7 @@ class 클래스명():
     * 클래스 내에 있지만 함수 밖에서 '변수명=데이터' 형식으로 정의한 변수로서 클래스에서 생성한 모든 객체가 공통으로 사용될 수 있다. 
   * 인스턴스 변수
     * 클래스 내의 함수 안에서 self.변수명=데이터 형식으로 정의한 변수로서 클래스 내의 모든 함수에서 self.변수명으로 접근할 수 있음.
+
 ```python
 #클래스명 card를 통해 my_card_1, my_card_2, my_card_3을 만들고,
 # 3개의 카드의 balance가 모두 10000으로 출력되게 만들어보시오.
@@ -108,11 +114,6 @@ my_card_3 = Card()
 
 
 print('총 발급된 카드 수: ', Card.issued_card_count)
-```
-```python
-
-
-
 ```
 
 
@@ -526,6 +527,7 @@ peo2.charecter(10, 10)
   * 장점
     * 프로그램 작성 코드량을 줄여준다.(다형성을 잘 쓰면 if/else 문을 많이 줄일 수 있음)
     * 코드의 가독성을 높혀줌
+
 ```python
 class Slimes:
     def __init__(self):
@@ -873,6 +875,7 @@ print(a)    # 주소값은 일반적인 정수값과 다르게 나온다.
   * 파이썬의 변수나 함수를 감춰주는 기능으로서, 외부에서 무분별한 접근을 막기위해 위와 같은 개념이 생겨났다.
     * 외부 object가 속성이나 메소드에 대한 접근을 막기 위해 이중 밑줄 __을 접두사로 추가할 수 있다.
     * '_클래스이름__메소드이름' 형태로 이름을 변환시켜, 부모클래스와 서브클래스의 변수나 메소드이름을 구분짓는다.
+
 ```python
 class Point:
    def __init__(self, x, y):
