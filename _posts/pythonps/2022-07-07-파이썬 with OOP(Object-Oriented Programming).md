@@ -814,6 +814,7 @@ print(my_function.my_divide())
 ```
 * import 모듈명 을 사용할 때에는 모듈 내에 사용할 내용들을 모듈명.변수, 모듈명.함수(), 모듈명.클래스() 형태로 불러와서 사용한다.
 * 아래와 같이 모듈명은 별명을 사용할 수 있다.
+
 ```python
 # test/test_function.py 로 저장 후에 해당 코드를 실행해보시오.
 import my_function as mf
@@ -821,6 +822,7 @@ import my_function as mf
 print(mf.my_divide())
 ```
 * 위 코드는 from 모듈명 import 함수명 형태로 사용할 수있다.
+
 ```python
 # test/test_function.py 로 저장 후에 해당 코드를 실행해보시오.
 from my_function import my_divide
@@ -1211,6 +1213,7 @@ for i,enu_list in enumerate(fla_list):
     > 2: B
     > 3: C
     > 4: D
+
 ```python
 # 위의 방법을 range로 해보고 비교해보자.
 
