@@ -1,4 +1,10 @@
-# Hash Table
+---
+title: 'Hash Table'
+use_math: true
+categories:
+  - dsai
+---
+
 ## 1. 해시테이블
 * 해시는 딕셔너리 코드와 관련되어 활용되는 개념
 * 해싱의 목적은 검색이다.(검색알고리즘의 역할도함)
