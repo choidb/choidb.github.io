@@ -1,4 +1,10 @@
-# DataStructure Essential(자료구조 본질)
+---
+title: 'DataStructure Essential(자료구조 본질)'
+use_math: true
+categories:
+  - dsac
+---
+
 
 * 데이터 활용 입장 / 컴퓨터 내부 동작에 대한 생각해 보기
 * Big O 및 복잡도 개념(알고리즘 효율성)
@@ -44,6 +50,7 @@ print("인덱스값 : ", twonumbersum(numbers,result))
     > 인덱스값 :  [0, 2]
 
 #### 1-1) 함수에 값만 전달하는 경우
+
 ```python
 # 함수에 값만 전달하는 경우
 def remainder(num, div):
@@ -66,6 +73,7 @@ print(remainder(num = 20, div = 7))
     * case 1처럼 코드를 작성하게 되면 대규모 프로젝트를 진행하는 경우에 처음 코드를 보는 사람도 함수에 전달되는 값이 무엇인지 알 수 있다.
 
 #### 1-3) 함수에 디폴트값을 할당해주는 경우
+
 ```python
 # case 2 - 함수에 디폴트값을 할당해주는 경우
 def remainder(test, num = 5, div = 2):
@@ -90,6 +98,7 @@ print(remainder(test = 7))
   * 파이썬 프로그래밍 언어는 기존 프로그래밍에서 발생한 부분을 개선시킴.
 
 #### 1-5) 자료구조 개념이 있기 전
+
 ```python
 # 자료구조라는 개념이 있기 전에는 필요할 때마다 변수를 만들어서 사용했다.
 
@@ -107,6 +116,7 @@ print(arr4)
     > 3
     > 1
 #### 1-6) 배열의 개념이 생긴 후 배열요소와 인덱스 활용해 배열을 구성
+
 ```python
 # 배열의 개념이 생겼고 배열요소와 인덱스를 활용되어 배열이 구성된다.
 
@@ -122,6 +132,7 @@ print(arr[3])
     > 1
 
 #### 1-7) 배열의 구성(파이썬 리스트 활용)
+
 ```python
 # 파이썬의 리스트를 활용하여 배열이 어떻게 구성되어있는지 알아보자.
 
@@ -162,6 +173,7 @@ print(x[6],'의 length: ',len(x[6]))
 #### 1-8) 파이썬의 리스트
 * 자료구조의 기본은 배열이라 할 수 있고, 파이썬에서는 리스트와 튜플로 구현할 수 있음
 * 리스트나 튜플의 핵심은 인덱스를 사용하는 것임
+
 ```python
 # 리스트 인덱싱/슬라이싱 예시
 
@@ -186,6 +198,7 @@ print('s[1:-1] 결과:', s[1:-1])
     > s[1:-1] 결과: [22, 33, 44]
 
 * 문자열 메소드, 반복문, 조건문 활용한 프로그래밍
+
 ```python
 # 예시1 - 회문(팰린드롬)
 
@@ -351,6 +364,7 @@ log(10) = 1
     * O(NlogN)
 
 * Contanst Time(상수시간) : O(1)
+
 ```python
 def print_one_item(items):
     print(items[1])       # 상수시간(단순하게 하나의 출력)
@@ -360,6 +374,7 @@ print_one_item([0,1,2])
     > 1
 
 * Linear Time(선형시간) : O(n)
+
 ```python
 def print_every_item(items):
     for item in items:  # 하나의 반복문
