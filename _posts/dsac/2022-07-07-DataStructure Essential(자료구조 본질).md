@@ -390,6 +390,7 @@ print_every_item([0,1,2])
     > 2
 
 * Quadratic Time(제곱시간) : O(n^2)
+
 ```python
 def print_pairs(items):
     for item_one in items:      # 중첩반복문
