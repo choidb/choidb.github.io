@@ -1,4 +1,10 @@
-# Data Structure(자료구조)
+---
+title: 'Data Structure(자료구조)'
+use_math: true
+categories:
+  - dsac
+---
+
 
 * 자료구조의 가장 기본적인 의미
   * 자료를 쉽게 관리하기 위해 다양한 구조로 묶는 것
@@ -98,6 +104,7 @@ print(head.next.value) # head노드의 다음위치노드의 값은 11
     > 11
 
 * 연결리스트의 핵심개념은 연결이고, 이것은 참조되는 노드의 '위치바꾸기'라고 할 수 있다.
+
 ```python
 # 리스트를 연결해보자.
 
@@ -123,6 +130,7 @@ while node:         # 노드별로 반복문을 수행
 
 * 연결리스트도 리스트의 메소드와 같은 기능들을 구현할 수 있다.
   * 삽입 / 삭제 / 검색
+
 ```python
 # 클래스에 연결리스트 구현
 class Node:
@@ -448,6 +456,7 @@ print(stack)
     > [3, 4, 5]
     > [3, 4]
 * 리스트를 사용하여 스택을 구현하는 방법
+
 ```python
 class Stack:
     def __init__(self):
@@ -456,6 +465,7 @@ class Stack:
 * push 함수는 파이썬의 리스트개념과 리스트메소드(append, pop)를 사용하여 인덱스를 추가한다.
 
 * pop 함수는 인덱스의 마지막 노드를 추출한다.
+
 ```python
 class Stack:
     def __init__(self):
@@ -470,6 +480,7 @@ class Stack:
         return "The stack is empty"
 ```
 * 내장함수가 아닌 연결리스트 개념과 단순 변수를 사용하여 스택을 구현 방법
+
 ```python
 class LinkedListNode:
     def __init__(self, data):
