@@ -162,18 +162,18 @@ print(add_four(6))
 
 위의 함수에 대한 수행과정
 
- 1) add_two(num) 함수 선언
- 2) add_four(num) 함수 선언
- 3) print(add_two(2)) 코드 읽기
- 4) 선언된 add_two 호출
- 5) return 4 값반환
- 6) print(add_four(6)) 코드 읽기
- 7) 선언된 add_four 호출
- 8) return add_two(add_two(6)) 반환
- 9) 선언된 add_two(6) 함수 호출
- 10) return 8 값반환
- 11) 선언된 add_two(8) 함수 호출
- 12) return 10 값반환
+ 1) add_two(num) 함수 선언  
+ 2) add_four(num) 함수 선언  
+ 3) print(add_two(2)) 코드 읽기  
+ 4) 선언된 add_two 호출  
+ 5) return 4 값반환  
+ 6) print(add_four(6)) 코드 읽기  
+ 7) 선언된 add_four 호출  
+ 8) return add_two(add_two(6)) 반환  
+ 9) 선언된 add_two(6) 함수 호출  
+ 10) return 8 값반환  
+ 11) 선언된 add_two(8) 함수 호출  
+ 12) return 10 값반환  
 
 * 재귀 제한
   * 파이썬에서는 재귀 깊이의 제한을 1000으로 기본 설정하고 있다.
@@ -186,6 +186,7 @@ import sys
 print(sys.getrecursionlimit())
 ```
     > 1000
+
 ```python
 def sum_number(n):
     if n <= 0:
@@ -368,8 +369,6 @@ bt.insert_node(0)
 bt.insert_node(-1)
 
 bt.head.value # 출력
-
-
 ```
 
 
